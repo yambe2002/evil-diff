@@ -46,7 +46,7 @@ Changes return new references, but preserve references for unchanged properties
 
 ```
 const result1 = { 'John': {name: {first: 'John', last: 'Doe'}, zipCode: '86469'} };
-const result2 = { 'John': {name: {first: 'John', last: 'Doe'}, zipCode: '91752'} };
+const result3 = { 'John': {name: {first: 'John', last: 'Doe'}, zipCode: '91752'} };
 
 assertFalse(result1 === result3); // not same object
 assertNotDeepEqual(result1, result3); // different data
